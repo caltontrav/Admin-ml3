@@ -1,0 +1,150 @@
+body{
+    margin: 0 5px;
+    padding: 10px;
+
+}
+/*-------header-------*/
+.header{
+    background-color: black;
+    margin-bottom: 70px;
+    font-size: 18px;
+    word-spacing: 3cm;
+    
+}
+.header a{
+    color: #ff4f81;
+    margin-top: 30px;
+    border-radius: 4cm;
+}
+.header a:hover{
+    background-color: black;
+}
+.navbar{
+    background-color: #fff;
+}
+h1{
+    text-transform: uppercase;
+    color: #ff4181;
+}
+/*--------navpage------*/
+.download{
+    font-size: 35px;
+    padding-bottom: 50px;
+    height: 50vh;
+    background-color: wheat;
+}
+.upload{
+    font-size: 35px;
+    height: 50vh;
+    background-image: url(./images/drink.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.upload strong{
+    color: #fff;
+}
+.nav_page{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 0px;
+}
+span a{
+    font-size: 25px;
+    text-decoration: none;
+}
+#btn{
+    width: 5cm;
+    height: 35px;
+    border-radius: 2cm;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+#btn:hover{
+    background-color: #ff4181;
+}
+#btn:focus{
+    outline: none;
+}
+input{
+    background-color: #fff;
+}
+/*--------footer-------*/
+footer{
+    background-color: #000;
+}
+.three_clo{
+    color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+.three_clo h4{
+    letter-spacing: 2px;
+    color: #ff4f81;
+
+}
+.three_clo p{
+    text-align: left;
+}
+.three_clo input[type="email"]{
+    width: 30%;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ff4f81;
+    outline: none;
+    padding: 0.5em;
+    font-size: 13px;
+    color: #999999;
+}
+.btn1{
+    color: #dec6be;
+    font-size: 18px;
+    border: 1px solid #ff4f81;
+    width: 14%;
+    height: 38px;
+    text-decoration: none;
+    background-color: #ff4f81;
+}
+.copyright{
+    color: #fff;
+    padding: 10px;
+    margin-top: 40px;
+}
+.copyright p{
+    text-align: right;
+    letter-spacing: 1px;
+}
+/*------product page-----*/
+.wrapper{
+    box-sizing: border-box;
+    box-shadow: #DC143C;
+    height: 60vh;
+    background-color: #FF4500;
+    background-size: cover;
+    width: 30%;
+    text-align: center;
+    font-family: cursive;
+    border-radius: 3cm;
+    margin-left: 500px;
+    margin-bottom: 40px;
+    color: black;
+    
+}
+.product-page{
+    background-image: url(./images/river.jpg);
+    color: wheat;
+}
+.product-page input{
+    color: #fff;
+}
+.wrapper h3, h5{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.wrapper input{
+    background-color: #fff;
+}
+
+
